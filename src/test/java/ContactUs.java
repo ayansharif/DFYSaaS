@@ -4,6 +4,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -19,15 +20,15 @@ public class ContactUs {
 
     @BeforeTest
     public void setup() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        WebDriverManager.firefoxdriver().setup();
+        driver = new FirefoxDriver();
         driver.get("https://dfysaas.com/");
     }
 
-    /*@AfterTest
+    @AfterTest
     public void quit() {
         driver.quit();
-    }*/
+    }
 
     @Test(priority = 1)
     public void ContactUs() throws InterruptedException {
