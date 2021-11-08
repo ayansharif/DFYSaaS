@@ -52,7 +52,7 @@ public class ContactUs {
             driver.findElement(By.xpath("//input[contains(@name,'f_name')]")).sendKeys("AdamTest");
             driver.findElement(By.xpath("//input[contains(@type,'tel')]")).sendKeys("123444555");
             driver.findElement(By.xpath("(//input[contains(@type,'email')])[1]")).sendKeys("ayantest12@gmail.com");
-            driver.findElement(By.xpath("//input[contains(@value,'Strategy Session')]")).click();
+            driver.findElement(By.xpath("//input[contains(@value,'Submit')]")).click();
 
 
 
