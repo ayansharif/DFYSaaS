@@ -66,7 +66,7 @@ public class ContactUs {
             driver.findElement(By.xpath("//input[contains(@name,'website')]")).sendKeys("Testing Business Text");*/
             //driver.findElement(By.xpath("//textarea[@name='about_business']")).sendKeys("This is my testing project");
             //Thread.sleep(1000);
-            driver.findElement(By.xpath("//input[contains(@value,'Submit')]")).click();
+            //driver.findElement(By.xpath("//input[contains(@value,'Submit')]")).click();
 
              /*Thread.sleep(1000);
             driver.findElement(By.xpath("//button[contains(.,'Book An Appointment Now!')]")).click();
